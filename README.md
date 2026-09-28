@@ -4,6 +4,12 @@
 
 **纯前端交互原型**：零依赖、零构建，双击 `index.html` 即可运行，也可直接部署到 GitHub Pages / 任意静态托管。
 
+### 🔗 在线体验
+
+**<https://tanguilin520.github.io/weekend-shift/>**
+
+![原型界面](docs/screenshot.png)
+
 ---
 
 ## 它是什么
