@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>周末单 · 大学生周末兼职撮合平台原型</title>
+<meta name="description" content="大学生周末兼职撮合平台交互原型：学生端 / 商家端 / 平台管理端三端互通，含匹配算法、履约闭环与信用体系。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧾</text></svg>">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="stage">
+
+  <!-- 演示控制台 -->
+  <aside class="console" id="console"></aside>
+
+  <!-- 手机 -->
+  <div class="phone">
+    <div class="notch"></div>
+    <div class="phone-inner">
+      <div class="statusbar">
+        <span id="clock">09:41</span>
+        <span class="right">
+          <span>📶</span><span>📡</span>
+          <span class="bat"><i></i></span>
+        </span>
+      </div>
+      <div class="screen" id="screen"></div>
+      <nav class="tabbar" id="tabbar"></nav>
+    </div>
+  </div>
+
+</div>
+
+<div id="overlay"></div>
+<div id="toast"></div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
